@@ -8,7 +8,7 @@ This page serves as a **summary portal** for both projects. Interested reviewers
 
 ## 📁 Repository Contents
 
-### 📄 1. 1. [HPC_BioBERT_System_Architecture_Technical_Report.pdf](./HPC_BioBert%20System%20Design.Report.pdf)
+### 📄 1. 1. [HPC_BioBERT_System_Architecture_Technical_Report.pdf](./HPC_BioBERT%20System%20Architecture.Report.pdf)
 > **Scalable Genomic Processing through Hybrid HPC-Cloud Integration and AI-Driven Annotation**
 
 - Implements a hybrid architecture combining Slurm-managed HPC clusters with Microsoft Azure cloud resources.
@@ -19,7 +19,7 @@ This page serves as a **summary portal** for both projects. Interested reviewers
   - 36.5% cost efficiency improvement
 - Focus: Intelligent job scheduling, GPU monitoring, MPI optimization, and pipeline orchestration.
 
-### 📄 2. 2. [HPC_BioBERT_Secure_Architecture_Technical_Report.pdf](./HPC_BioBert%20Secure%20Design.Report.pdf)
+### 📄 2. 2. [HPC_BioBERT_Secure_Architecture_Technical_Report.pdf](./HPC_BioBERT%20Secure%20Architecture.Report.pdf)
 > **Secure Genomic Computing: Defence-in-Depth in a Hybrid HPC Cloud Environment**
 
 - Implements encryption protocols (AES-256-GCM + RSA-4096), federated identity (OAuth 2.0 + PKCE), and GPU memory protection.
