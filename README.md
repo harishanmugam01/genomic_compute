@@ -1,4 +1,4 @@
-# Secure & Scalable Genomic Computing in HPC Ecosystem
+# Secure & Scalable Genomic Computing System in HPC Infrastructure
 
 This repository presents two co-authored technical research documentation reports, authored by Harihara Sudhan Shanmugam (Computational Research Technician) in collaboration with Chamodi Korala Hewage (Research System Developer) at Buckinghamshire New University. The work was carried out within the Pathogen Genomics Unit and addresses real-world system design challenges in high-performance computing (HPC) environments tailored to biomedical research.
 
