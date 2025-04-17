@@ -8,27 +8,29 @@ This page serves as a **summary portal** for both projects. Interested reviewers
 
 ## 📁 Repository Contents
 
-### 📄 1. 1. [HPC_BioBERT_System_Architecture_Technical_Report.pdf](./hpc_biobert_scalablecompute.pdf)
+### 📄 1. 1. [HPC_BioBERT_ScalableCompute_Technical_Report.pdf](./hpc_biobert_scalablecompute.pdf)
 > **Scalable Genomic Processing through Hybrid HPC-Cloud Integration and AI-Driven Annotation**
 
 - Implements a hybrid architecture combining Slurm-managed HPC clusters with Microsoft Azure cloud resources.
 - Integrates BioBERT, a large language model for automated genomic variant annotation, optimized with GPU acceleration and quantization.
+- Designed GPU-aware batching algorithm for efficient BioBERT inference based on real-time memory estimation.
 - Demonstrates:
   - 162.5% increase in sample throughput
   - 62.4% reduction in processing time
   - 36.5% cost efficiency improvement
-- Focus: Intelligent job scheduling, GPU monitoring, MPI optimization, and pipeline orchestration.
+- Focus: Intelligent Job Scheduling, Algorithm Development, GPU monitoring, MPI optimization, and Pipeline Orchestration.
 
-### 📄 2. 2. [HPC_BioBERT_Security_Technical_Report.pdf](./hpc_biobert_systemsecurity.pdf)
+### 📄 2. 2. [HPC_BioBERT_SystemSecurity_Technical_Report.pdf](./hpc_biobert_systemsecurity.pdf)
 > **Secure Genomic Computing: Defence-in-Depth in a Hybrid HPC Cloud Environment**
 
 - Implements encryption protocols (AES-256-GCM + RSA-4096), federated identity (OAuth 2.0 + PKCE), and GPU memory protection.
+- Implemented secure annotation algorithm with encrypted model loading and input/output validation logic.
 - Applies OWASP and STRIDE threat modeling to secure genomic pipelines.
 - Results:
   - 99.8% effectiveness against simulated attacks
   - 3–8% performance overhead
   - 97.8% NIST 800-53 compliance
-- Focus: API hardening, container security (CIS benchmarks), GPU isolation, and secure BioBERT API deployment.
+- Focus: API Hardening, Security Algorithm Design, Container Security, GPU isolation, and Secure BioBERT API deployment.
 
 
 ## 👨‍💻 Author's Role
@@ -39,3 +41,4 @@ This page serves as a **summary portal** for both projects. Interested reviewers
 - Integrating and optimizing AI LLM models (BioBERT) within genomic workflows.
 - Performing security testing and ensuring compliance (NIST, HIPAA, GDPR).
 - Developing automation scripts for Slurm, MPI tuning, and containerized job orchestration.
+- Developing algorithmic logic for secure variant annotation and GPU-optimized BioBERT inference.
