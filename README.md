@@ -32,6 +32,12 @@ This page serves as a **summary portal** for both projects. Interested reviewers
   - 97.8% NIST 800-53 compliance
 - Focus: API Hardening, Security Algorithm Design, Container Security, GPU isolation, and Secure BioBERT API deployment.
 
+- ### 📄 2. 3. [Letter_of_Reference_Secure_GenomicCompute_Development.pdf](./referenceletter_secure_system_development.pdf)
+> **Reference Letter on Collaborative System Development**
+
+- Documents the collaborative work between Harihara Sudhan Shanmugam and Chamodi Korala Hewage.
+- Highlights specific contributions to system architecture, algorithm design, and security implementation.
+- Details the cross-functional development approach that led to successful project outcomes.
 
 ## 👨‍💻 Author's Role
 
